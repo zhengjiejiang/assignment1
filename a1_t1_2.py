@@ -1,5 +1,5 @@
 # Celsius to Kelvin
-def c_to_k(c):
+def c_to_k (c):
 
     f = c + 273.15
     return f
