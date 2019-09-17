@@ -1,3 +1,6 @@
-Data = [10 , 100 ,1000 ,10000]
+import  statistics
 
-print (Data[0])
+values = [10 , 10 ,1000 ,10000]
+
+mode = statistics.mode(values)
+print(mode)
